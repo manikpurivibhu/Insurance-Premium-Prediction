@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request
-import pickle
 import pandas as pd
 import numpy as np
+import requests
+import pickle
 
 app = Flask(__name__)
 
@@ -76,4 +77,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8000)
