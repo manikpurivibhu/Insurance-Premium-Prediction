@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title> Insurance Premium</title>
+    
+  
+  
+  </head>
+  
+  <body style="background-color:#000000;" >
+  <font color="white"> 
+  
+  
+  
+  
+  
+  <body>
+    <h1>
+	     
+       
+	 
+        <div style="text-align:center">Premium Prediction
+        </div>
+    </h1>
+    <hr/>
+    
+	
+	
+	
+	<div class= "container-fluid">
+    <div class="row">	
+	
+	
+	
+	<div style="max-width:500px;margin:auto;">
+	
+	
+	
+	<form class="row g-6" method="POST" action="/predict" >
+	    
+	  <div class="col-md-6">
+	  
+
+    Age
+	<br>
+	<input  type="number" placeholder="age" name = "age">
+    <br>
+	
+	</div>
+	
+	
+	<div class="col-md-6">
+	
+    Sex
+<br>
+	<input type="radio" id="sex" name="sex" value="male"/> Male
+         <br>
+         <input type="radio" id="sex" name="sex" value="female"/> Female
+    <br>
+	<br>
+	<br>
+	
+	</div>
+	<div class="col-md-6">
+	
+    BMI 
+	<br><input  type="number" step = "0.01" placeholder="bmi" name = "bmi" aria-label=".form-control-lg example">
+    <br>
+	<br>
+	<br>
+	
+	</div>
+	
+	
+	<div class="col-md-6">
+    Number of Children 
+	<br>
+	<input  type="number" placeholder="children" name = "children" aria-label=".form-control-lg example">
+    <br>
+	<br>
+	</div>
+	<br>
+	<br>
+	
+	<div class="col-md-6">
+	
+    Smoker
+	<br>
+
+	<input type="radio" id="smoker" name="smoker" value="yes"/> Yes
+    <br>
+	
+    <input type="radio" id="smoker" name="smoker" value="no"/> No
+    <br>
+	<br>
+	</div>
+	
+	<div class="col-md-6">
+    Region
+	<br>
+	<input type="radio" id="region" name="region" value="southeast"/> Southeast
+    <br>
+    <input type="radio" id="region" name="region" value="southwest"/> Southwest
+    <br>
+    <input type="radio" id="region" name="region" value="northeast"/> Northeast
+    <br>
+    <input type="radio" id="region" name="region" value="northwest"/> Northwest
+    <br>
+	<br>
+	<br>
+	</div>
+	<br>
+	<br>
+    
+    
+    <input type="submit" value="predict">
+
+
+</form>
+
+
+
+</div>
+</div>
+</div>
+
+
+  </font>
+   
+  </body>
+</html>
