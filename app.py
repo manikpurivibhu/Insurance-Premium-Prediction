@@ -68,8 +68,8 @@ def predict():
             model_prediction = round(float(model_prediction), 2)
             
 
-        except ValueError:
-            return "Please check if the values are entered correctly"
+        except (ValueError, UnboundLocalError) as e:
+             return render_template('incorrectinput.html')
 
     return render_template('predict.html', prediction = model_prediction)
 
