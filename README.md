@@ -151,11 +151,11 @@ In general, the higher the R2 Score value, the better the model fits the data. <
 
 ![Model Evaluation](Images/model_perfomance.PNG)
 
-The RMSE value of Random Forest Regressor is found to be 0.373, the best amongst all Machine Learning Models under evaluation for this project. It means the standard deviation for our prediction is 0.373. So, sometimes we expect the predictions to be off by more than 0.373 and other times we expect less than 0.373. <br> 
+The RMSE value of Random Forest Regressor is found to be 0.354, the best amongst all Machine Learning Models under evaluation for this project. It means the standard deviation for our prediction is 0.354. So, sometimes we expect the predictions to be off by more than 0.354 and other times we expect less than 0.354. <br> 
 So, the model is a <b>good fit</b> to the data. 
 <br><br>
 In business decisions, the benchmark for the R2 score value is 0.7. It means if R2 score value >= 0.7, then the model is good enough to deploy on unseen data whereas if R2 score value < 0.7, then the model is not good enough to deploy.<br> 
-Our R2 score value has been found to be 0.891, again the best amongst all Machine Learning Models under evaluation for this project. It means that this model explains 89.1 % of the variance in our dependent variable. So, the R2 score value confirms that the model is good enough to deploy because it provides a good fit to the data.
+Our R2 score value has been found to be 0.891, again the best amongst all Machine Learning Models under evaluation for this project. It means that this model explains 88.2 % of the variance in our dependent variable. So, the R2 score value confirms that the model is good enough to deploy because it provides a good fit to the data.
 <br><br>
 The k-fold Crosss Validation Score also suggests that Decision Tree Regressor fits the data best amongst all Machine Learning Model under evaluation and is good enough to be used for production.
 
